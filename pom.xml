@@ -13,8 +13,8 @@
         <easyb.version>1.4</easyb.version>
         <cobertura.version>2.6</cobertura.version>
         <!-- A workaround for a bug in PMD -->
-        <sourceJdk>1.7</sourceJdk>
-        <targetJdk>1.7</targetJdk>
+        <sourceJdk>1.8</sourceJdk>
+        <targetJdk>1.8</targetJdk>
         <github.account>wakaleo</github.account>
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
@@ -34,6 +34,8 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Java\jdk1.8.0_231\bin\javac.exe</executable>
                 </configuration>
             </plugin>
             <plugin>
